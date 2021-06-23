@@ -1,0 +1,73 @@
+.chartContainer {
+  border: 1px solid #ccc;
+  height: 70vh;
+  padding: 40px;
+  margin: 80px 30px;
+  border-radius: 5px;
+}
+
+.chartInfo {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chartTitle { 
+  font-size: 40px;
+  font-style: bold;
+}
+
+.periodButton, .activePeriodButton {
+  background-color: transparent;
+  font-size: 20px;
+  color: rgb(143, 141, 141);
+  padding: 5px 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  border: 1px solid #ccc
+}
+
+.periodButton:nth-of-type(1), .activePeriodButton:nth-of-type(1) {
+  border-radius: 5px 0 0 5px;
+}
+
+.periodButton:nth-of-type(3), .activePeriodButton:nth-of-type(3) {
+  border-radius: 0 5px 5px 0;
+}
+
+.activePeriodButton {
+  color: rgb(37, 36, 36);
+  font-weight: 700;
+}
+
+.chartMetaData {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 10px;
+}
+
+.chartAdditionalInfo {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.chartInfoType {
+  text-transform: capitalize;
+  color: #ccc
+}
+
+.chartInfoNumber {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.chartInfoBigNumber {
+  font-size: 28px;
+  font-weight: bold;
+}
